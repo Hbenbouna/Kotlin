@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:id="@+id/para"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="50dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Quizz culture générale"
+                android:textColor="#045139"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De quelle ville française le cannelé est-il une spécialité ?"
+                android:textSize="20sp"
+                android:layout_marginBottom="5sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioOne_One"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toulouse"
+                    android:onClick="checkButton"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioOne_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Marseille" />
+
+                <RadioButton
+                    android:id="@+id/radioOne_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Nantes" />
+
+                <RadioButton
+                    android:id="@+id/radioOne_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Bordeaux" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quelle est la capitale de l’Inde ?"
+                android:layout_marginBottom="5sp"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroupTwo">
+
+                <RadioButton
+                    android:id="@+id/radioTwo_One"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Calcutta" />
+
+                <RadioButton
+                    android:id="@+id/radioTwo_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Mumbai" />
+
+                <RadioButton
+                    android:id="@+id/radioTwo_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="New Delhi" />
+
+                <RadioButton
+                    android:id="@+id/radioTwo_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Bangalore" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qui est l’inséparable compagnon de Titi ?"
+                android:layout_marginBottom="5sp"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroupThree">
+
+                <RadioButton
+                    android:id="@+id/radioThree_One"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Tom" />
+
+                <RadioButton
+                    android:id="@+id/radioThree_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Toto" />
+
+                <RadioButton
+                    android:id="@+id/radioThree_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Grosminet" />
+
+                <RadioButton
+                    android:id="@+id/radioThee_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Tac" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quel est le nom du principal indice boursier de la place de Paris ?"
+                android:layout_marginBottom="5sp"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroupFour">
+
+                <RadioButton
+                    android:id="@+id/radioFour_One"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Le CAC 40" />
+
+                <RadioButton
+                    android:id="@+id/radioFour_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Le DAX" />
+
+                <RadioButton
+                    android:id="@+id/radioFour_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Le Nifty" />
+
+                <RadioButton
+                    android:id="@+id/radioFour_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Le Footsie" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/resultats"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:onClick="resultat"
+                android:text="Resultats"
+                android:textColorLink="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textResultat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#045139"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="@id/resultats"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="TextBox">...</string>
+    <string name="textview3">TextView</string>
+    <string name="showtext">showtext</string>
+    <string name="crivez_ici">Écrivez ici :</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="connection">Connection</string>
+    <string name="l_adresse_email_n_est_pas_valide">l\'adresse email n\'est pas valide !</string>
+</resources>
